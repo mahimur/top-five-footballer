@@ -1,22 +1,105 @@
 /* common style */
-.header {
-    font-family: 'Berkshire Swash', cursive;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.main {
-    font-family: 'Poppins', sans-serif;
+/* header start */
+.header {
+    font-family: 'Berkshire Swash', cursive;
+    background-color: #000;
+    height: 70vh;
+    position: relative;
+}
+
+.header-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.banner {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.header-elements {
+    padding-top: 160px;
 }
 
 .header-title {
-    color: orange;
+    color: #FF5E19;
     font-size: 54px;
     text-align: center;
 }
 
 .header-info {
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 14px;
     letter-spacing: 1px;
     text-align: center;
     width: 50%;
     margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+/* main star */
+.main {
+    font-family: 'Poppins', sans-serif;
+    background-color: #151515;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.players {
+    display: flex;
+    column-gap: 23px;
+    margin: 0 10%;
+}
+
+/* player section */
+.player-cards {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 264px);
+    gap: 24px;
+}
+
+.card {
+    border: 2px solid rgba(251, 249, 249, 0.3);
+    background-color: #000;
+    color: #fff;
+}
+
+.player-info {
+    text-align: center;
+    padding: 15px;
+}
+
+.info-bottom {
+    padding-bottom: 20px;
+}
+
+.player-cards .card img {
+    width: 100%;
+}
+
+.card span {
+    color: rgb(179, 166, 166);
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.dot {
+    font-size: 30px;
+}
+
+.btn-select {
+    background-color: #015196;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 90px;
 }
