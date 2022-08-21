@@ -1,0 +1,22 @@
+/* common style */
+.header {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.main {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-title {
+    color: orange;
+    font-size: 54px;
+    text-align: center;
+}
+
+.header-info {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
