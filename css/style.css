@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* header start */
@@ -48,7 +49,6 @@
 
 /* main star */
 .main {
-    font-family: 'Poppins', sans-serif;
     background-color: #151515;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -102,4 +102,61 @@
     color: #fff;
     font-weight: 600;
     padding: 10px 90px;
+}
+
+button:hover {
+    border: 1px solid #04465d;
+    background-color: #04778e;
+    color: #ffffff;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+/* side calculator */
+.side-calculator {
+    width: 264px;
+}
+
+.selected-players,
+.budget {
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.selected-players h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+.selected-v {
+    height: 200px;
+}
+
+.selected-v li {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* footer */
+.footer {
+    background-color: #151515;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    padding: 40px 0;
 }
