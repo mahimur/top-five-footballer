@@ -151,12 +151,18 @@ hr {
 }
 
 .bdg {
-    height: 400px;
+    height: 540px;
+}
+
+.pp-cost {
+    display: flex;
+    justify-content: space-between;
 }
 
 .pp-cost p {
     display: inline-block;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .pp-cost input {
@@ -172,17 +178,42 @@ hr {
     background-color: #015196;
     color: #fff;
     font-weight: 400;
-    padding: 10px 90px;
-    font-size: 14px;
-    margin-top: 20px;
+    padding: 10px 50px;
+    font-size: 18px;
+    margin-top: 30px;
     width: 100%;
 }
 
-.total-cost {
-    margin-top: 20px;
+.total-cost,
+.all-expenses {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+}
+
+.manager,
+.coach {
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manager p,
+.coach p {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.manager input,
+.coach input {
+    width: 50%;
+    padding: 10px 4px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
 }
 
 /* footer */
