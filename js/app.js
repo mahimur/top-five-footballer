@@ -29,8 +29,8 @@ function addTopFive() {
         for (const button of buttons) {
             button.disabled = true;
         }
-        // alert("You can't select more than 5 players!");
-        // return;
+        alert("You can't select more than 5 players!");
+        return;
     }
 }
 
