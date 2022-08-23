@@ -1,5 +1,4 @@
 const selectedPlayersArray = [];
-
 function playerName(playerId) {
     const playerNamefield = document.getElementById(playerId);
     const playerName = playerNamefield.innerText;

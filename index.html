@@ -175,15 +175,24 @@
             </div>
             <div class="side-calculator">
                 <div class="selected-players">
-                    <h2>Selected - <span id="total-players">0</span></h2>
+                    <h2 class="calc-title">Selected - <span id="total-players">0</span></h2>
                     <hr>
                     <ol id="selection-field" class="selected-v">
 
                     </ol>
                 </div>
-                <div class="budget">
-                    <h1>hihh</h1>
+                <div class="budget bdg">
+                    <h1 class="calc-title">Budget</h1>
                     <hr>
+                    <div class="pp-cost">
+                        <p>Per Player:</p>
+                        <input id="pp-input" type="text">
+                    </div>
+                    <button id="btn-calc" class="calculate-btn">Calculate</button>
+                    <div class="total-cost">
+                        <p>Player Expenses:</p>
+                        <p>$<span id="player-expenses">00</span></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -195,6 +204,7 @@
 
     <!-- JavaScript Main -->
     <script src="js/app.js"></script>
+    <script src="js/budget.js"></script>
 </body>
 
 </html>
