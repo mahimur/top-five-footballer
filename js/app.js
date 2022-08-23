@@ -24,13 +24,13 @@ const players = {
 }
 
 function addTopFive() {
+    const alertMessage = document.getElementById('alert-display');
     if (selectedPlayersArray.length >= 5) {
         const buttons = document.querySelectorAll('.btn-select');
         for (const button of buttons) {
             button.disabled = true;
         }
-        alert("You can't select more than 5 players!");
-        return;
+        alertMessage.style.display = 'block';
     }
 }
 
