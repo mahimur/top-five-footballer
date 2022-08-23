@@ -9,7 +9,7 @@
 .header {
     font-family: 'Berkshire Swash', cursive;
     background-color: #000;
-    height: 70vh;
+    padding-bottom: 160px;
     position: relative;
 }
 
